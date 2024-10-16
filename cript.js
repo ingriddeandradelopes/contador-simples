@@ -2,7 +2,7 @@ let valorContador= 0;
 
 function incrementar(){
     valorContador++;
-    Document.getElementByld('contador').innerText = valorContador;
+    document.getElementByld('contador').innerText = valorContador;
 }
 
 function diminuir(){
