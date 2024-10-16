@@ -1,11 +1,11 @@
-let valorCortador= 0;
+let valorContador= 0;
 
 function incrementar(){
-    valorCortador++;
-    Document.getElementByld('contador').innrtext = valorCOntador;
+    valorContador++;
+    Document.getElementByld('contador').innerText = valorContador;
 }
 
 function diminuir(){
-    valorCortador--;
-    document.getElementById('contador').innerTent = valorCortador;
+    valorContador--;
+    document.getElementById('contador').innerText = valorContador;
 }
